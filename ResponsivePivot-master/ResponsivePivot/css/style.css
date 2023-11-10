@@ -459,3 +459,29 @@ box-shadow: inset 0 0 20px rgba(0,0,0,0.45);
     font-size: 25px;
   }
 }
+
+.collapsible {
+    color: #5294e2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.0rem;
+}
+
+.active, .collapsible:hover {
+  background-color: #72b9f352;
+}
+
+.collapsible-content {
+  padding: 10px 10px 20px 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+  color: #5294e2
+}
